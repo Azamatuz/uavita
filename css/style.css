@@ -1,9 +1,4 @@
-h1 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
-    font-size: 48px;
-    vertical-align: middle;
-}
+
 a.nav-link {
     color: #000000;
     font-family: Lato, sans-serif;
@@ -48,5 +43,14 @@ a.nav-link:hover {
     background-image: url("../img/dronBG.png");
     background-repeat: no-repeat;
     background-position: center right;
-    height: 500px;
+    height: 600px;
+    vertical-align: middle; 
+}
+#header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    margin-left: 10%;
+    padding-top: 20%;
+
 }
