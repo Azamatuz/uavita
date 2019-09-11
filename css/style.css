@@ -55,15 +55,17 @@ a.nav-link:hover {
 #header {
     background-image: url("../img/dronBG.png");
     background-repeat: no-repeat;
-    background-position: center right;
+    background-position: top right;
+    margin-top: 70px;
     height: 600px;
     vertical-align: middle; 
 }
-#header h1 {
+h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-size: 48px;
+}
+#header h1 {
     margin-left: 10%;
-    padding-top: 20%;
-
+    padding-top: 10%;
 }
