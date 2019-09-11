@@ -42,6 +42,16 @@ a.nav-link:hover {
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(34, 160, 244, 0.7)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
+.icon-group {
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+.icon-group i {
+    display: block;
+
+}
+
 #header {
     background-image: url("../img/dronBG.png");
     background-repeat: no-repeat;
