@@ -1,7 +1,9 @@
+body a.nav-link, p {
+    font-family: Lato, sans-serif;
+}
 
 a.nav-link {
     color: #000000;
-    font-family: Lato, sans-serif;
     font-weight: 700;
     font-size: 18px;
 }
@@ -57,7 +59,7 @@ a.nav-link:hover {
     background-repeat: no-repeat;
     background-position: top right;
     margin-top: 70px;
-    height: 600px;
+    height: 500px;
     vertical-align: middle; 
 }
 h1 {
@@ -68,4 +70,15 @@ h1 {
 #header h1 {
     margin-left: 10%;
     padding-top: 10%;
+}
+
+#header p {
+    font-size: 24px;
+    line-height: 35px;
+}
+.card img {
+    opacity: 0.8;
+}
+.card h2 {
+    font-weight: 900;
 }
